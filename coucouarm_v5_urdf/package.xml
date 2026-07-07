@@ -1,0 +1,20 @@
+<package format="3">
+  <name>coucouarm_v5</name>
+  <version>1.0.0</version>
+  <description>coucouarm_v5 urdf 描述文件</description>
+
+  <maintainer email="liuqingxiym@163.com">liu</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
