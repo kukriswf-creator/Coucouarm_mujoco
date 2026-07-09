@@ -23,3 +23,33 @@ MuJoCo
 NumPy
 Pandas
 Matplotlib
+
+
+*********************************************************************
+
+Coucouarm_mujoco is a 6-DOF robotic arm control validation project based on the MuJoCo simulation environment. The project focuses on a 6-DOF robotic arm driven by Damiao motors and is mainly used to validate and compare the trajectory tracking performance of different controllers in joint-space robotic arm control tasks.
+
+The project includes robotic arm model files, controller code, trajectory generation modules, experiment scripts, CSV data logging tools, and plotting scripts. It can be used for simulation validation and control performance comparison of robotic arm control algorithms.
+
+Currently, PID and super-twisting SMC algorithms have been verified. If you need to test your own control method, you can write the corresponding Python code and use the plotting scripts in the `experiments` folder to visualize the results.
+
+Model files:
+coucouarm_v5_urdf/
+
+Controller code:
+coucouarm/controllers/
+
+Trajectory generation file:
+coucouarm/trajectory/sine_reference_continuous.py
+
+Experiment scripts and plotting files:
+experiments/
+
+Recommended environment:
+Ubuntu 20.04 / 22.04
+Python 3.8+
+MuJoCo
+NumPy
+Pandas
+Matplotlib
+
