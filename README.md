@@ -55,6 +55,6 @@ Matplotlib
 
 ## Results Preview
 
-<img src="docs/images/coucouarm_v5.png" width="700">
+<img src="docs/images/coucouarm_v5.png" width="70">
 
-<img src="docs/images/coucouarm_results_white_paper.png" width="900">
+<img src="docs/images/coucouarm_results_white_paper.png" width="200">
